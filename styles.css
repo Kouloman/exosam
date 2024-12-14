@@ -1,0 +1,112 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: first baseline;
+  background-image: url("images/desktop-image-hero-1.jpg");
+  width: 1000px;
+  height: 500px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style-type: none;
+  align-items: flex-start;
+}
+
+li a {
+  text-decoration: none;
+  color: #ebeff5;
+  align-items: first baseline;
+}
+
+.gauche {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0px;
+}
+.pol {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+  display: flex; /* Utilise Flexbox pour aligner les éléments */
+  justify-content: space-between; /* Espace entre les éléments */
+  gap: 100px; /* Espacement entre les éléments */
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+}
+.titre {
+  font-size: 40px;
+  font-weight: 0px;
+  color: #333333;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 50px;
+  align-items: center;
+}
+.right {
+  width: 50%;
+  align-items: center;
+  
+  padding: 0px;
+  /*  width: 45%; Chaque élément prend 45% de la largeur du parent */
+  border: 0px solid #000;
+}
+.description {
+  color: #54585c;
+  font-weight: light;
+  font-size: 18px;
+  padding: 50px;
+  align-items: center;
+  margin-top: 0px;
+}
+body {
+  margin: 0;
+  height: 100%; /* Assurer que le body prend toute la hauteur de la fenêtre */
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  width: 100%;
+}
+.new-amount {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  letter-spacing: 15px;
+  color: #585656;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 25px;
+}
+.bas {
+  display: flex; /* Aligne les enfants horizontalement */
+  align-items: center; /* Aligne les enfants verticalement au centre */
+  margin-top: auto;
+}
+
+.child {
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+/* Ajouter un espace supplémentaire autour de l'enfant du milieu */
+.middle {
+  flex-grow: 1; /* Occupe le plus d'espace possible */
+}
+.new {
+  font-size: 20px;
+  font-weight: 0px;
+  color: #333333;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 50px;
+  align-items: center; 
+  letter-spacing: 10px;
+}
